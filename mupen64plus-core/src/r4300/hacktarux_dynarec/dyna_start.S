@@ -31,10 +31,10 @@ extern return_address: qword
 PUBLIC dyna_start
 dyna_start proc
    ;we must push an even # of registers to keep stack 16-byte aligned
-%ifdef WIN64
+;%ifdef WIN64
     push rdi
     push rsi
-%endif
+;%endif
     push rbx                 
     push r12
     push r13
@@ -53,11 +53,11 @@ _A1:
     mov rax, rsp
     sub rax, 8h
     mov [return_address], rax
-%ifdef WIN64
+;%ifdef WIN64
     call rcx
-%else
-    call rdi
-%endif
+;%else
+;    call rdi
+;%endif
 _A2:
     mov  rsp, [save_rsp]
     pop  rbp
@@ -66,10 +66,10 @@ _A2:
     pop  r13
     pop  r12
     pop  rbx
-%ifdef WIN64
+;%ifdef WIN64
     pop rsi
     pop rdi
-%endif
+;%endif
 
     ;mov QWORD [save_rsp], 0
     ;mov QWORD [save_rip], 0
