@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -15,9 +15,6 @@
     </Filter>
     <Filter Include="Source Files\libretro">
       <UniqueIdentifier>{08d74e8f-2a39-4efc-a018-65d09dd080e0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\libretro\libco">
-      <UniqueIdentifier>{1a0773bc-aafe-4c69-a662-06bfbff51772}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\mupen64plus-hle-rsp">
       <UniqueIdentifier>{a7cdfbab-ff50-40c0-a177-b4650f46a8b9}</UniqueIdentifier>
@@ -76,17 +73,11 @@
     <Filter Include="Source Files\mupen64plus-core\src\r4300">
       <UniqueIdentifier>{6fce91a3-24d0-441b-ac7d-3d6bfe2e9c45}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\libretro\glsym">
-      <UniqueIdentifier>{f36ec05b-e8c8-485f-92f6-7b3159b4fee2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\mupen64plus-video-angrylion">
       <UniqueIdentifier>{be734aec-bdb7-47ea-a241-31d3444ec246}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\mupen64plus-core\src\plugin\audio_libretro">
       <UniqueIdentifier>{d5c262d1-6d32-40ec-bda4-08e71ed16a83}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\mupen64plus-core\src\plugin\audio_libretro\drivers_resampler">
-      <UniqueIdentifier>{d3d9ee3e-fedf-420e-85cb-60e6e88cdeaa}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\mupen64plus-core\src\ai">
       <UniqueIdentifier>{0ed3c36d-5d7c-4c7e-b0af-d4fd41697658}</UniqueIdentifier>
@@ -109,23 +100,14 @@
     <Filter Include="Source Files\mupen64plus-core\src\vi">
       <UniqueIdentifier>{9d83b714-4362-4144-8b9d-133a52ee3f48}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\libretro\glsm">
-      <UniqueIdentifier>{53deb3b4-808d-43ef-840a-2d353609553e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\mupen64plus-core\src\dd">
       <UniqueIdentifier>{b2973149-c88f-4e3b-8d71-60d96a747aab}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec">
       <UniqueIdentifier>{458f2509-c1b7-44fc-b7d0-ac3387ac9d51}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\mupen64plus-core\src\rdp_common">
-      <UniqueIdentifier>{598942f2-e2ba-4f5d-948c-2f4e0093c706}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\mupen64plus-video-gliden64">
       <UniqueIdentifier>{5128d018-01a8-4e45-9d6d-e6cbf9c3f7bd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\libretro\memalign">
-      <UniqueIdentifier>{7102790b-cd23-4a92-8882-5f4fe37ca16d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Graphics">
       <UniqueIdentifier>{1c66f1ad-f988-461d-bf3b-f8e317863f49}</UniqueIdentifier>
@@ -133,11 +115,101 @@
     <Filter Include="Source Files\mupen64plus-core\src\gb">
       <UniqueIdentifier>{2c7fb4bb-79c1-441e-bfc7-aed02c7575af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\gles2n64">
+      <UniqueIdentifier>{c4390e73-a12a-42c0-ba00-81a32e6dd110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gles2n64\src">
+      <UniqueIdentifier>{475465c9-ba7f-4de5-a3ff-5c67b152d478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gles2rice">
+      <UniqueIdentifier>{39e5646f-ac3b-4229-8b73-9e564f4e23d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gles2rice\src">
+      <UniqueIdentifier>{8ca875d2-30b1-4dc1-a5b6-435687971165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glide2gl">
+      <UniqueIdentifier>{fd41a8cd-d7ab-474b-bea9-c878fcd5f558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glide2gl\Glide64">
+      <UniqueIdentifier>{3ca5615a-503d-4430-a8ef-07930995b21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glide2gl\Glitch64">
+      <UniqueIdentifier>{b7285eb0-a31a-4d3e-a92a-cc519ab09a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\HLE">
+      <UniqueIdentifier>{e1554ff5-8ca7-44e3-a3bd-6ec6beffd714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\RDP">
+      <UniqueIdentifier>{d9512333-7569-4df5-8734-03908b2acfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\RSP">
+      <UniqueIdentifier>{c25bc107-36e7-4144-b519-8a3f53049744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{6dc161c1-70ec-4fa5-8b1d-fa3f25339010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\HLE">
+      <UniqueIdentifier>{b9ac4025-9dd5-4ea5-8077-20a6ab288d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\RSP">
+      <UniqueIdentifier>{c77155fc-6245-4cc7-afe3-60b2b2d1a120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\RDP">
+      <UniqueIdentifier>{b4fa914c-912d-43ca-9535-091b9680447a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libretro">
+      <UniqueIdentifier>{92a55fd1-1a43-4348-a650-e700fbcb6a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common">
+      <UniqueIdentifier>{0ffedf9e-acdc-4656-8991-eda0ad22ab13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\audio">
+      <UniqueIdentifier>{7557fc58-cf20-4d6b-95e7-817a35128165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\compat">
+      <UniqueIdentifier>{0a1a0bcf-222a-418f-94d2-c78e5cf7c58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\encodings">
+      <UniqueIdentifier>{619da7b2-3550-4f46-b4ac-e2d252b3d759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\features">
+      <UniqueIdentifier>{a1690af5-800e-44e8-bf8d-aea3690d3bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\file">
+      <UniqueIdentifier>{1518a19f-6a58-43e2-92c1-6e9babfc5bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\gfx">
+      <UniqueIdentifier>{31465055-42ef-43b5-96a2-ccbaed07d938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\glsm">
+      <UniqueIdentifier>{500ae9a7-dce4-45a5-9af4-489d4827a97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\hash">
+      <UniqueIdentifier>{41884193-780a-4ca7-ba0c-86e91def55fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\libco">
+      <UniqueIdentifier>{6df6ad65-9a1d-42ec-baec-8174868cda71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\lists">
+      <UniqueIdentifier>{f90779f5-2bad-4f88-8fbb-e94e7d8e40c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\memmap">
+      <UniqueIdentifier>{5ed8bd57-d4a3-4a07-88ba-f5e26cf59540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\string">
+      <UniqueIdentifier>{538eb14b-81fd-4dda-9120-9be5ecfb654a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\glsym">
+      <UniqueIdentifier>{902e7dd8-0092-48a8-805a-fdcd17fbdd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libretro-common\streams">
+      <UniqueIdentifier>{449ebd98-6efb-4459-9fe4-5a87afb0b87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mupen64plus-core\src\pifbootrom">
+      <UniqueIdentifier>{d473f85f-54b7-4799-8d46-ef90dfbbc789}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libretro.c">
-      <Filter>Source Files\libretro</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-rsp-hle\src\alist.c">
       <Filter>Source Files\mupen64plus-hle-rsp\src</Filter>
     </ClCompile>
@@ -210,129 +282,6 @@
     <ClCompile Include="..\..\..\mupen64plus-core\src\plugin\plugin.c">
       <Filter>Source Files\mupen64plus-core\src\plugin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_3dmath.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\Combine.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\Framebuffer_glide64.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glidemain.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_gDP.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_gSP.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_rdp.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\TexCache.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_Util.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glitch64\glitch64_combiner.c">
-      <Filter>Source Files\glide2gl\src\Glitch64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glitch64\geometry.c">
-      <Filter>Source Files\glide2gl\src\Glitch64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glitch64\glitchmain.c">
-      <Filter>Source Files\glide2gl\src\Glitch64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\Blender.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\Combiner.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\gDP_rice.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\gSP_rice.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\ConvertImage.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\ConvertImage16.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\DecodedMux.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\DeviceBuilder.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\FrameBuffer.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\GraphicsContext.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLCombiner.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLDecodedMux.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLES2FragmentShaders.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLExtCombiner.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLExtRender.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLGraphicsContext.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLRender.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLRenderExt.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\OGLTexture.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\Render.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\RenderBase.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\RenderExt.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\RenderTexture.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\RSP_Parser.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\RSP_S2DEX.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\Texture.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\TextureManager.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\VectorMath.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\Video.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\exception.c">
       <Filter>Source Files\mupen64plus-core\src\r4300</Filter>
     </ClCompile>
@@ -351,9 +300,6 @@
     <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\reset.c">
       <Filter>Source Files\mupen64plus-core\src\r4300</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\RiceConfig.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\cached_interp.c">
       <Filter>Source Files\mupen64plus-core\src\r4300</Filter>
     </ClCompile>
@@ -366,17 +312,8 @@
     <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\instr_counters.c">
       <Filter>Source Files\mupen64plus-core\src\r4300</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glitch64\glitch64_textures.c">
-      <Filter>Source Files\glide2gl\src\Glitch64</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\memory\m64p_memory.c">
       <Filter>Source Files\mupen64plus-core\src\memory</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\Glide64_UCode.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\Glide64_Ini.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-video-angrylion\n64video.c">
       <Filter>Source Files\mupen64plus-video-angrylion</Filter>
@@ -386,9 +323,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-video-angrylion\n64video_vi.c">
       <Filter>Source Files\mupen64plus-video-angrylion</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2rice\src\RiceDebugger.cpp">
-      <Filter>Source Files\gles2rice\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\plugin\get_time_using_C_localtime.c">
       <Filter>Source Files\mupen64plus-core\src\plugin</Filter>
@@ -401,15 +335,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\plugin\audio_libretro\audio_backend_libretro.c">
       <Filter>Source Files\mupen64plus-core\src\plugin\audio_libretro</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\plugin\audio_libretro\audio_resampler_driver.c">
-      <Filter>Source Files\mupen64plus-core\src\plugin\audio_libretro</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\plugin\audio_libretro\drivers_resampler\cc_resampler.c">
-      <Filter>Source Files\mupen64plus-core\src\plugin\audio_libretro\drivers_resampler</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\plugin\audio_libretro\drivers_resampler\nearest.c">
-      <Filter>Source Files\mupen64plus-core\src\plugin\audio_libretro\drivers_resampler</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\api\vidext_libretro.c">
       <Filter>Source Files\mupen64plus-core\src\api</Filter>
@@ -483,24 +408,6 @@
     <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\r4300_core.c">
       <Filter>Source Files\mupen64plus-core\src\r4300</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\MiClWr.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\glide2gl\src\Glide64\TexLoad.c">
-      <Filter>Source Files\glide2gl\src\Glide64</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\glsym\glsym_gl.c">
-      <Filter>Source Files\libretro\glsym</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\glsym\rglgen.c">
-      <Filter>Source Files\libretro\glsym</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\libco\libco.c">
-      <Filter>Source Files\libretro\libco</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\glsm\glsm.c">
-      <Filter>Source Files\libretro\glsm</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\dd\dd_controller.c">
       <Filter>Source Files\mupen64plus-core\src\dd</Filter>
     </ClCompile>
@@ -513,43 +420,7 @@
     <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\assemble.c">
       <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gbc.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gcop0.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gcop1.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gcop1_d.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gcop1_l.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gcop1_s.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gcop1_w.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gr4300.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gregimm.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\grspecial.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\gtlb.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\regcache.c">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\rjump.c">
       <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\ri\rdram_detection_hack.c">
@@ -557,159 +428,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\api\config.c">
       <Filter>Source Files\mupen64plus-core\src\api</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\mupen64plus-core\src\plugin\audio_libretro\drivers_resampler\sinc_resampler.c">
-      <Filter>Source Files\mupen64plus-core\src\plugin\audio_libretro\drivers_resampler</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\memmap\memalign.c">
-      <Filter>Source Files\libretro\memalign</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\streams\file_stream.c">
-      <Filter>Source Files\libretro</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\compat\compat_strl.c">
-      <Filter>Source Files\libretro</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\conversion\float_to_s16.c">
-      <Filter>Source Files\libretro</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\conversion\s16_to_float.c">
-      <Filter>Source Files\libretro</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libretro-common\features\features_cpu.c">
-      <Filter>Source Files\libretro</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\3DMath.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\Combiner_gles2n64.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\DepthBuffer.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\F3D.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\F3DDKR.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\F3DEX.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\F3DEX2.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\F3DEX2CBFD.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\F3DPD.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\F3DSWSE.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\F3DWRUS.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\FrameBuffer_gles2n64.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\GBI.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\gDP_gles2n64.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\gles2N64.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\gles2n64_rsp.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\glN64Config.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\gSP_gles2n64.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\L3D.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\L3DEX.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\L3DEX2.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\N64.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\OpenGL.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\RDP.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\S2DEX.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\S2DEX2.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\ShaderCombiner.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\Textures.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\Turbo3D.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\VI.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\ZSort.c">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\RSP\RSP_state.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\3dmaths.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\HLE\Microcode\Fast3D.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\RDP\gDP_funcs.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\RDP\gDP_funcs_C.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\RDP\gDP_state.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\RSP\gSP_funcs.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\RSP\gSP_funcs_C.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\RSP\gSP_state.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\plugins.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Graphics\RDP\RDP_state.c">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\brumme_crc.c">
-      <Filter>Source Files\libretro</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\gles2n64\src\Hash.c">
-      <Filter>Source Files\gles2n64\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\mupen64plus-core\src\si\transferpak.c">
       <Filter>Source Files\mupen64plus-core\src\si</Filter>
@@ -840,146 +558,380 @@
     <ClCompile Include="..\..\..\mupen64plus-video-gliden64\src\ZSort.cpp">
       <Filter>Source Files\mupen64plus-video-gliden64</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\Textures.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\Turbo3D.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\VI.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\ZSort.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\3DMath.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\Combiner_gles2n64.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\DepthBuffer.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\F3D.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\F3DDKR.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\F3DEX.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\F3DEX2.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\F3DEX2CBFD.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\F3DPD.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\F3DSWSE.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\F3DWRUS.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\FrameBuffer_gles2n64.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\GBI.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\gDP_gles2n64.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\gles2N64.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\gles2n64_rsp.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\glN64Config.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\gSP_gles2n64.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\Hash.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\L3D.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\L3DEX.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\L3DEX2.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\N64.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\OpenGL.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\RDP.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\S2DEX.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\S2DEX2.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2n64\src\ShaderCombiner.c">
+      <Filter>Source Files\gles2n64\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\RiceConfig.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\RiceDebugger.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\RSP_Parser.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\RSP_S2DEX.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\Texture.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\TextureManager.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\VectorMath.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\Video.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\Blender.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\Combiner.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\ConvertImage.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\ConvertImage16.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\DecodedMux.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\DeviceBuilder.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\FrameBuffer.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\gDP_rice.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\GraphicsContext.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\gSP_rice.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLCombiner.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLDecodedMux.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLES2FragmentShaders.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLExtCombiner.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLExtRender.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLGraphicsContext.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLRender.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLRenderExt.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\OGLTexture.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\Render.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\RenderBase.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\RenderExt.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gles2rice\src\RenderTexture.cpp">
+      <Filter>Source Files\gles2rice\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\Combine.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\Framebuffer_glide64.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_3dmath.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_gDP.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_gSP.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\Glide64_Ini.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_rdp.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\Glide64_UCode.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glide64_util.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\glidemain.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\MiClWr.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\TexCache.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glide64\TexLoad.c">
+      <Filter>Source Files\glide2gl\src\Glide64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glitch64\geometry.c">
+      <Filter>Source Files\glide2gl\src\Glitch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glitch64\glitch64_combiner.c">
+      <Filter>Source Files\glide2gl\src\Glitch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glitch64\glitch64_textures.c">
+      <Filter>Source Files\glide2gl\src\Glitch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\glide2gl\src\Glitch64\glitchmain.c">
+      <Filter>Source Files\glide2gl\src\Glitch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\3dmaths.c">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\plugins.c">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\HLE\Microcode\Fast3D.c">
+      <Filter>Source Files\Graphics\HLE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\RDP\gDP_funcs_C.c">
+      <Filter>Source Files\Graphics\RDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\RDP\gDP_state.c">
+      <Filter>Source Files\Graphics\RDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\RDP\RDP_state.c">
+      <Filter>Source Files\Graphics\RDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\RDP\gDP_funcs.cpp">
+      <Filter>Source Files\Graphics\RDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\RSP\gSP_funcs.cpp">
+      <Filter>Source Files\Graphics\RSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\RSP\gSP_state.c">
+      <Filter>Source Files\Graphics\RSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\RSP\RSP_state.c">
+      <Filter>Source Files\Graphics\RSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Graphics\RSP\gSP_funcs_C.c">
+      <Filter>Source Files\Graphics\RSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\brumme_crc.c">
+      <Filter>Source Files\libretro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libretro.c">
+      <Filter>Source Files\libretro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\audio\conversion\s16_to_float.c">
+      <Filter>Source Files\libretro-common\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\audio\conversion\float_to_s16.c">
+      <Filter>Source Files\libretro-common\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\audio\resampler\audio_resampler.c">
+      <Filter>Source Files\libretro-common\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\audio\resampler\drivers\sinc_resampler.c">
+      <Filter>Source Files\libretro-common\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\audio\resampler\drivers\nearest_resampler.c">
+      <Filter>Source Files\libretro-common\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\audio\resampler\drivers\null_resampler.c">
+      <Filter>Source Files\libretro-common\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\compat\compat_posix_string.c">
+      <Filter>Source Files\libretro-common\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\compat\compat_snprintf.c">
+      <Filter>Source Files\libretro-common\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\compat\compat_strcasestr.c">
+      <Filter>Source Files\libretro-common\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\compat\compat_strl.c">
+      <Filter>Source Files\libretro-common\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\encodings\encoding_crc32.c">
+      <Filter>Source Files\libretro-common\encodings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\features\features_cpu.c">
+      <Filter>Source Files\libretro-common\features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\file\retro_stat.c">
+      <Filter>Source Files\libretro-common\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\file\config_file.c">
+      <Filter>Source Files\libretro-common\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\file\config_file_userdata.c">
+      <Filter>Source Files\libretro-common\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\file\file_path.c">
+      <Filter>Source Files\libretro-common\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\gfx\gl_capabilities.c">
+      <Filter>Source Files\libretro-common\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\glsm\glsm.c">
+      <Filter>Source Files\libretro-common\glsm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\glsym\rglgen.c">
+      <Filter>Source Files\libretro-common\glsym</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\glsym\glsym_gl.c">
+      <Filter>Source Files\libretro-common\glsym</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\hash\rhash.c">
+      <Filter>Source Files\libretro-common\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\libco\libco.c">
+      <Filter>Source Files\libretro-common\libco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\lists\string_list.c">
+      <Filter>Source Files\libretro-common\lists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\memmap\memalign.c">
+      <Filter>Source Files\libretro-common\memmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\streams\file_stream.c">
+      <Filter>Source Files\libretro-common\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libretro-common\string\stdstring.c">
+      <Filter>Source Files\libretro-common\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\mupen64plus-core\src\main\device.c">
+      <Filter>Source Files\mupen64plus-core\src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\mupen64plus-core\src\main\profile.c">
+      <Filter>Source Files\mupen64plus-core\src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\mupen64plus-core\src\pifbootrom\pifbootrom.c">
+      <Filter>Source Files\mupen64plus-core\src\pifbootrom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\hacktarux_dynarec.c">
+      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\mupen64plus-rsp-hle\src\re2.c">
+      <Filter>Source Files\mupen64plus-hle-rsp\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\assemble.h">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\assemble_struct.h">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\interpret.h">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\regcache.h">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\3DMath.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\Combiner.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\Common.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\Config.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\convert.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\Debug.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\DepthBuffer.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\F3D.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\F3DDKR.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\F3DEX.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\F3DEX2.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\F3DEX2CBFD.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\F3DPD.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\F3DSWSE.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\F3DWRUS.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\FrameBuffer.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\GBI.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\gDP.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\gles2N64.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\gSP.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\L3D.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\L3DEX.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\L3DEX2.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\N64.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\OpenGL.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\RDP.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\RSP.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\S2DEX.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\S2DEX2.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\ShaderCombiner.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\Textures.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\Turbo3D.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\VI.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\gles2n64\src\ZSort.h">
-      <Filter>Source Files\gles2n64\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Graphics\HLE\Microcode\Fast3D.h">
-      <Filter>Source Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Graphics\HLE\Microcode\S2DEX.h">
-      <Filter>Source Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Graphics\HLE\Microcode\turbo3d.h">
-      <Filter>Source Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Graphics\HLE\Microcode\ZSort.h">
-      <Filter>Source Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Graphics\3dmath.h">
-      <Filter>Source Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Graphics\GBI.h">
-      <Filter>Source Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Graphics\image_convert.h">
-      <Filter>Source Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Graphics\plugin.h">
-      <Filter>Source Files\Graphics</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\mupen64plus-core\src\si\transferpak.h">
       <Filter>Source Files\mupen64plus-core\src\si</Filter>
     </ClInclude>
@@ -1112,15 +1064,417 @@
     <ClInclude Include="..\..\..\mupen64plus-video-gliden64\src\ZSort.h">
       <Filter>Source Files\mupen64plus-video-gliden64</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\dyna_start.asm">
-      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
-    </CustomBuild>
+    <ClInclude Include="..\..\..\gles2n64\src\3DMath.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\Combiner.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\Common.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\Config.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\convert.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\CRC.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\Debug.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\DepthBuffer.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\F3D.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\F3DDKR.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\F3DEX.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\F3DEX2.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\F3DEX2CBFD.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\F3DPD.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\F3DSWSE.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\F3DWRUS.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\FrameBuffer.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\GBI.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\gDP.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\gles2N64.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\gSP.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\L3D.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\L3DEX.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\L3DEX2.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\N64.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\OpenGL.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\RDP.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\RSP.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\S2DEX.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\S2DEX2.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\ShaderCombiner.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\Textures.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\Turbo3D.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\VI.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2n64\src\ZSort.h">
+      <Filter>Header Files\gles2n64\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RSP_Parser.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RSP_S2DEX.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\Texture.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\TextureManager.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\Timing.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\typedefs.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\ucode.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\UcodeDefs.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\VectorMath.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\version.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\Video.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\Blender.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\COLOR.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\Combiner.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\CombinerDefs.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\Config.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\ConvertImage.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\CSortedList.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\Debugger.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\DecodedMux.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\DeviceBuilder.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\FrameBuffer.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\GraphicsContext.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\IColor.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\OGLCombiner.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\OGLDecodedMux.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\OGLES2FragmentShaders.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\OGLExtCombiner.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\OGLExtRender.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\OGLGraphicsContext.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\OGLRender.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\OGLTexture.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\osal_opengl.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\osal_preproc.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RDP_Texture.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\Render.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RenderBase.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RenderTexture.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RSP_GBI_Others.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RSP_GBI_Sprite2D.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RSP_GBI0.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RSP_GBI1.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RSP_GBI2.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gles2rice\src\RSP_GBI2_ext.h">
+      <Filter>Header Files\gles2rice\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\TexLoad.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\turbo3D.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode_f3dex2acclaim.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode_f3dtexa.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode00.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode01.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode02.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode03.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode04.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode05.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode06.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode07.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode08.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode09.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucode09rdp.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\ucodeFB.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\Util.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\3dmath.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\Combine.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\CRC.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\Framebuffer_glide64.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\glide64_gDP.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\glide64_gSP.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\Glide64_Ini.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\Glide64_UCode.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\GlideExtensions.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\MiClWr.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\rdp.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glide64\TexCache.h">
+      <Filter>Header Files\glide2gl\Glide64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glitch64\glitchmain.h">
+      <Filter>Header Files\glide2gl\Glitch64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glitch64\uthash.h">
+      <Filter>Header Files\glide2gl\Glitch64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\glide2gl\src\Glitch64\glide.h">
+      <Filter>Header Files\glide2gl\Glitch64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\GBI.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\image_convert.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\plugin.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\3dmath.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\HLE\Microcode\S2DEX.h">
+      <Filter>Header Files\Graphics\HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\HLE\Microcode\turbo3d.h">
+      <Filter>Header Files\Graphics\HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\HLE\Microcode\ZSort.h">
+      <Filter>Header Files\Graphics\HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\HLE\Microcode\Fast3D.h">
+      <Filter>Header Files\Graphics\HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RDP\gDP_funcs_prot.h">
+      <Filter>Header Files\Graphics\RDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RDP\gDP_state.h">
+      <Filter>Header Files\Graphics\RDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RDP\RDP_state.h">
+      <Filter>Header Files\Graphics\RDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RDP\gDP_funcs.h">
+      <Filter>Header Files\Graphics\RDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RDP\gDP_funcs_C.h">
+      <Filter>Header Files\Graphics\RDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RSP\gSP_state.h">
+      <Filter>Header Files\Graphics\RSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RSP\RSP_state.h">
+      <Filter>Header Files\Graphics\RSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RSP\gSP_funcs.h">
+      <Filter>Header Files\Graphics\RSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RSP\gSP_funcs_C.h">
+      <Filter>Header Files\Graphics\RSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Graphics\RSP\gSP_funcs_prot.h">
+      <Filter>Header Files\Graphics\RSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libretro_perf.h">
+      <Filter>Header Files\libretro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libretro_private.h">
+      <Filter>Header Files\libretro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libretro_memory.h">
+      <Filter>Header Files\libretro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GL\glext.h">
+      <Filter>Header Files\libretro</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\mupen64plus-video-gliden64\src\FrameBufferEmulationIssues.txt">
       <Filter>Source Files\mupen64plus-video-gliden64</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\..\..\mupen64plus-core\src\r4300\hacktarux_dynarec\dyna_start.S">
+      <Filter>Source Files\mupen64plus-core\src\r4300\hacktarux_dynarec</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
